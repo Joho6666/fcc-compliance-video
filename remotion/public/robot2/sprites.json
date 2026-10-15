@@ -1,0 +1,44 @@
+{
+ "idle": {
+  "w": 633,
+  "h": 885,
+  "talk": true,
+  "blink": true
+ },
+ "point": {
+  "w": 737,
+  "h": 909,
+  "talk": true,
+  "blink": true
+ },
+ "present": {
+  "w": 873,
+  "h": 880,
+  "talk": true,
+  "blink": true
+ },
+ "wave": {
+  "w": 780,
+  "h": 920,
+  "talk": true,
+  "blink": false
+ },
+ "cheer": {
+  "w": 762,
+  "h": 921,
+  "talk": true,
+  "blink": false
+ },
+ "think": {
+  "w": 652,
+  "h": 879,
+  "talk": true,
+  "blink": false
+ },
+ "surprised": {
+  "w": 692,
+  "h": 899,
+  "talk": true,
+  "blink": false
+ }
+}

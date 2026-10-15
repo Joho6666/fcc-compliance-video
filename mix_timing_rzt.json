@@ -1,0 +1,159 @@
+{
+ "total": 60.8,
+ "shots": [
+  {
+   "scene": "hook",
+   "clip": "r1",
+   "sfx": "ping",
+   "from": 0.3,
+   "dur": 2.7
+  },
+  {
+   "scene": "hook",
+   "clip": "r2",
+   "sfx": "pop",
+   "from": 3,
+   "dur": 2.7666666666666666
+  },
+  {
+   "scene": "valid",
+   "clip": "r3",
+   "sfx": "stamp",
+   "from": 5.766666666666667,
+   "dur": 2.7666666666666666
+  },
+  {
+   "scene": "valid",
+   "clip": "r4",
+   "sfx": "pop",
+   "from": 8.533333333333333,
+   "dur": 2.7666666666666666
+  },
+  {
+   "scene": "analogy",
+   "clip": "r5",
+   "sfx": "page",
+   "from": 11.3,
+   "dur": 3.1
+  },
+  {
+   "scene": "analogy",
+   "clip": "r6",
+   "sfx": "page",
+   "from": 14.4,
+   "dur": 2.7666666666666666
+  },
+  {
+   "scene": "analogy",
+   "clip": "r7",
+   "sfx": "page",
+   "from": 17.166666666666668,
+   "dur": 2.8666666666666667
+  },
+  {
+   "scene": "chain",
+   "clip": "r8",
+   "sfx": "pop",
+   "from": 20.033333333333335,
+   "dur": 2.7666666666666666
+  },
+  {
+   "scene": "chain",
+   "clip": "r9",
+   "sfx": "pop",
+   "from": 22.8,
+   "dur": 2.566666666666667
+  },
+  {
+   "scene": "chain",
+   "clip": "r10",
+   "sfx": "pop",
+   "from": 25.366666666666667,
+   "dur": 3.1333333333333333
+  },
+  {
+   "scene": "impact",
+   "clip": "r11",
+   "sfx": "boom",
+   "from": 28.5,
+   "dur": 3
+  },
+  {
+   "scene": "impact",
+   "clip": "r12",
+   "sfx": "pop",
+   "from": 31.5,
+   "dur": 2.8
+  },
+  {
+   "scene": "timeline",
+   "clip": "r13",
+   "sfx": "whoosh",
+   "from": 34.3,
+   "dur": 3.033333333333333
+  },
+  {
+   "scene": "timeline",
+   "clip": "r14",
+   "sfx": "ping",
+   "from": 37.333333333333336,
+   "dur": 3.2333333333333334
+  },
+  {
+   "scene": "check",
+   "clip": "r15",
+   "sfx": "whoosh",
+   "from": 40.56666666666667,
+   "dur": 3.1666666666666665
+  },
+  {
+   "scene": "check",
+   "clip": "r16",
+   "sfx": "tick",
+   "from": 43.733333333333334,
+   "dur": 2.033333333333333
+  },
+  {
+   "scene": "check",
+   "clip": "r17",
+   "sfx": "tick",
+   "from": 45.766666666666666,
+   "dur": 2.1
+  },
+  {
+   "scene": "check",
+   "clip": "r18",
+   "sfx": "tick",
+   "from": 47.86666666666667,
+   "dur": 2.5
+  },
+  {
+   "scene": "check",
+   "clip": "r19",
+   "sfx": "tick",
+   "from": 50.36666666666667,
+   "dur": 2.3666666666666667
+  },
+  {
+   "scene": "check",
+   "clip": "r20",
+   "sfx": "tick",
+   "from": 52.733333333333334,
+   "dur": 2.1666666666666665
+  },
+  {
+   "scene": "outro",
+   "clip": "r21",
+   "sfx": "whoosh",
+   "from": 54.9,
+   "dur": 1.0666666666666667
+  },
+  {
+   "scene": "outro",
+   "clip": "r22",
+   "sfx": "pop",
+   "from": 55.96666666666667,
+   "dur": 4.833333333333333
+  }
+ ]
+}

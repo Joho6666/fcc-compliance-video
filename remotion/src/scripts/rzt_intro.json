@@ -1,0 +1,426 @@
+{
+ "meta": {
+  "视频标题（发布用）": "产品出海合规难？用 AI 帮你搞定全球认证！",
+  "选题一句话（≤ 20 字）": "为什么产品出海总是卡在合规认证上？",
+  "信息来源（链接 / 文件名）": "认证通官方平台介绍",
+  "角色": "盾牌",
+  "画风": "深色科技",
+  "配音音色": "甜美解说",
+  "结尾引导": "关注",
+  "brand": "认证通",
+  "watermark": "@认证通",
+  "source": "信息来源：认证通官方平台介绍",
+  "mascot": "shield",
+  "theme": "techDark",
+  "voice": "BV405_streaming"
+ },
+ "beats": [
+  {
+   "id": "r1",
+   "scene": "hook",
+   "text": "做跨境和智能硬件，合规有多难？",
+   "pose": "surprised",
+   "sfx": "ping",
+   "note": "叮咚提示音"
+  },
+  {
+   "id": "r2",
+   "scene": "hook",
+   "text": "你的产品出海，是不是总卡在认证上？",
+   "pose": "think",
+   "sfx": "pop",
+   "note": "疑问音效"
+  },
+  {
+   "id": "r3",
+   "scene": "valid",
+   "text": "先别慌，认证通能帮你一站式搞定。",
+   "pose": "check",
+   "sfx": "stamp",
+   "note": "对勾发光音效"
+  },
+  {
+   "id": "r4",
+   "scene": "valid",
+   "text": "用 AI 加专家经验，既省钱又省心。",
+   "pose": "check",
+   "sfx": "pop",
+   "note": ""
+  },
+  {
+   "id": "r5",
+   "scene": "analogy",
+   "text": "打个比方：产品出海，就像出国自驾游。",
+   "pose": "none",
+   "sfx": "page",
+   "note": "翻页音效"
+  },
+  {
+   "id": "r6",
+   "scene": "analogy",
+   "text": "各国复杂的法规，就是陌生的交通规则。",
+   "pose": "none",
+   "sfx": "page",
+   "note": ""
+  },
+  {
+   "id": "r7",
+   "scene": "analogy",
+   "text": "认证通，就是帮你实时避坑的智能导航。",
+   "pose": "none",
+   "sfx": "page",
+   "note": ""
+  },
+  {
+   "id": "r8",
+   "scene": "chain",
+   "text": "以前做认证，全靠人工到处查资料。",
+   "pose": "think",
+   "sfx": "pop",
+   "note": "箭头逐个弹出音效"
+  },
+  {
+   "id": "r9",
+   "scene": "chain",
+   "text": "不仅法规更新滞后，流程还不透明。",
+   "pose": "think",
+   "sfx": "pop",
+   "note": ""
+  },
+  {
+   "id": "r10",
+   "scene": "chain",
+   "text": "稍不留神，时间和预算就全都超标了。",
+   "pose": "think",
+   "sfx": "pop",
+   "note": ""
+  },
+  {
+   "id": "r11",
+   "scene": "impact",
+   "text": "如果法规没摸透，或者丝印标签出了错，",
+   "pose": "surprised",
+   "sfx": "boom",
+   "note": "警报低音（不过分恐吓）"
+  },
+  {
+   "id": "r12",
+   "scene": "impact",
+   "text": "就可能面临重新整改，耽误产品上市。",
+   "pose": "surprised",
+   "sfx": "pop",
+   "note": ""
+  },
+  {
+   "id": "r13",
+   "scene": "timeline",
+   "text": "现在，我们的合规地图会持续动态更新，",
+   "pose": "check",
+   "sfx": "whoosh",
+   "note": "科技感刷新音效"
+  },
+  {
+   "id": "r14",
+   "scene": "timeline",
+   "text": "经 AI 和人工双重审核，确保信息准确。",
+   "pose": "check",
+   "sfx": "ping",
+   "note": ""
+  },
+  {
+   "id": "r15",
+   "scene": "check",
+   "text": "无论公司规模大小，这五件事都能帮到你：",
+   "pose": "point",
+   "sfx": "whoosh",
+   "note": ""
+  },
+  {
+   "id": "r16",
+   "scene": "check",
+   "text": "第一，一键查合规需求。",
+   "pose": "point",
+   "sfx": "tick",
+   "note": "打勾音效 1"
+  },
+  {
+   "id": "r17",
+   "scene": "check",
+   "text": "第二，自动生成认证方案。",
+   "pose": "point",
+   "sfx": "tick",
+   "note": "打勾音效 2"
+  },
+  {
+   "id": "r18",
+   "scene": "check",
+   "text": "第三，校验标签与评估风险。",
+   "pose": "point",
+   "sfx": "tick",
+   "note": "打勾音效 3"
+  },
+  {
+   "id": "r19",
+   "scene": "check",
+   "text": "第四，初创企业全托管服务。",
+   "pose": "point",
+   "sfx": "tick",
+   "note": "打勾音效 4"
+  },
+  {
+   "id": "r20",
+   "scene": "check",
+   "text": "第五，大企业体系培训赋能。",
+   "pose": "check",
+   "sfx": "tick",
+   "note": "打勾音效 5"
+  },
+  {
+   "id": "r21",
+   "scene": "outro",
+   "text": "关注认证通，",
+   "pose": "wave",
+   "sfx": "whoosh",
+   "note": "轻松收尾音乐"
+  },
+  {
+   "id": "r22",
+   "scene": "outro",
+   "text": "让全球产品认证一路畅通，我们下期见！",
+   "pose": "wave",
+   "sfx": "pop",
+   "note": ""
+  }
+ ],
+ "scenes": {
+  "hook": {
+   "title": [
+    {
+     "t": "出海合规",
+     "hl": false
+    },
+    {
+     "t": "有多难",
+     "hl": true
+    }
+   ],
+   "elements": [
+    "大标题、各国认证标志卡、提示条、对话气泡"
+   ],
+   "badges": [
+    "CE",
+    "FCC",
+    "UKCA",
+    "CCC",
+    "PSE",
+    "KC"
+   ],
+   "chip": "各国认证标准各不相同",
+   "bubble": "总卡在认证上？"
+  },
+  "valid": {
+   "title": [
+    {
+     "t": "一站式",
+     "hl": true
+    },
+    {
+     "t": "搞定合规",
+     "hl": false
+    }
+   ],
+   "elements": [
+    "大图标 + 印章（AI+SaaS）、\"先别慌\"气泡、Anker资深团队标签"
+   ],
+   "icon": "shield",
+   "stamp": "AI+SaaS",
+   "bubble": "先别慌",
+   "tag": "Anker 资深团队"
+  },
+  "analogy": {
+   "title": [
+    {
+     "t": "打个",
+     "hl": false
+    },
+    {
+     "t": "比方",
+     "hl": true
+    }
+   ],
+   "elements": [
+    "第 1 行：产品出海 = 出国自驾游",
+    "第 2 行：各国法规 = 陌生交规",
+    "第 3 行：认证通 = 智能合规导航"
+   ],
+   "rows": [
+    {
+     "l": {
+      "icon": "box",
+      "label": "产品出海"
+     },
+     "r": {
+      "icon": "car",
+      "label": "出国自驾游"
+     }
+    },
+    {
+     "l": {
+      "icon": "doc",
+      "label": "各国法规"
+     },
+     "r": {
+      "icon": "sign",
+      "label": "陌生交规"
+     }
+    },
+    {
+     "l": {
+      "icon": "shield",
+      "label": "认证通"
+     },
+     "r": {
+      "icon": "nav",
+      "label": "智能合规导航"
+     }
+    }
+   ]
+  },
+  "chain": {
+   "title": [
+    {
+     "t": "以前问题",
+     "hl": false
+    },
+    {
+     "t": "出在哪",
+     "hl": true
+    }
+   ],
+   "elements": [
+    "方框 1：法规更新慢 / 方框 2：流程不透明 / 方框 3：成本难管控"
+   ],
+   "mode": "cards",
+   "cards": [
+    {
+     "icon": "refresh",
+     "text": "法规更新慢"
+    },
+    {
+     "icon": "doc",
+     "text": "流程不透明"
+    },
+    {
+     "icon": "coin",
+     "text": "成本难管控"
+    }
+   ]
+  },
+  "impact": {
+   "title": [
+    {
+     "t": "弄错法规",
+     "hl": false
+    },
+    {
+     "t": "后果",
+     "hl": true
+    }
+   ],
+   "elements": [
+    "被禁止标志（合规漏洞） → 箭头 → 后果标签（整批整改/延误上市）"
+   ],
+   "from": {
+    "icon": "doc",
+    "label": "合规漏洞"
+   },
+   "mid": {
+    "icon": "box",
+    "label": "产品"
+   },
+   "result": "整批整改 · 延误上市"
+  },
+  "timeline": {
+   "title": [
+    {
+     "t": "法规",
+     "hl": false
+    },
+    {
+     "t": "动态",
+     "hl": true
+    },
+    {
+     "t": "更新",
+     "hl": false
+    }
+   ],
+   "elements": [
+    "竖向时间轴 3 个节点（全球法规库 → AI+人工双审 → 动态更新） + \"信息准确\"标签"
+   ],
+   "nodes": [
+    {
+     "d": "全球法规库",
+     "t": "覆盖各国认证要求"
+    },
+    {
+     "d": "AI+人工双审",
+     "t": "确保信息准确",
+     "now": true
+    },
+    {
+     "d": "动态更新",
+     "t": "法规变化及时同步"
+    }
+   ],
+   "chip": "信息准确"
+  },
+  "check": {
+   "title": [
+    {
+     "t": "帮你搞定",
+     "hl": false
+    },
+    {
+     "t": "5件事",
+     "hl": true
+    }
+   ],
+   "elements": [
+    "清单标题：AI+专家全链路服务",
+    "清单项 1：一键查合规需求",
+    "清单项 2：自动生成认证方案",
+    "清单项 3：校验标签与评估风险",
+    "清单项 4：初创企业全托管服务",
+    "清单项 5：大企业体系培训赋能"
+   ],
+   "header": "AI+专家全链路服务",
+   "items": [
+    "一键查合规需求",
+    "自动生成认证方案",
+    "校验标签与评估风险",
+    "初创企业全托管服务",
+    "大企业体系培训赋能"
+   ],
+   "titleSize": 104
+  },
+  "outro": {
+   "title": [
+    {
+     "t": "关注",
+     "hl": false
+    },
+    {
+     "t": "认证通",
+     "hl": true
+    }
+   ],
+   "elements": [
+    "品牌贴纸、Slogan气泡（让全球产品认证一路畅通！）、\"下期见\"、信息来源"
+   ],
+   "sticker": "认证通",
+   "bubble": "让全球产品认证一路畅通！",
+   "bye": "我们下期见~"
+  }
+ }
+}

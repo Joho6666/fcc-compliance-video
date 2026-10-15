@@ -1,0 +1,166 @@
+{
+ "total": 52.3,
+ "shots": [
+  {
+   "scene": "hook",
+   "clip": "m1",
+   "sfx": "boom",
+   "from": 0.3,
+   "dur": 2.7333333333333334
+  },
+  {
+   "scene": "hook",
+   "clip": "m2",
+   "sfx": "pop",
+   "from": 3.033333333333333,
+   "dur": 2.066666666666667
+  },
+  {
+   "scene": "valid",
+   "clip": "m3a",
+   "sfx": "stamp",
+   "from": 5.1,
+   "dur": 3.2333333333333334
+  },
+  {
+   "scene": "valid",
+   "clip": "m3b",
+   "sfx": "pop",
+   "from": 8.333333333333334,
+   "dur": 1.1333333333333333
+  },
+  {
+   "scene": "analogy",
+   "clip": "m4a",
+   "sfx": "whoosh",
+   "from": 9.466666666666667,
+   "dur": 2.8
+  },
+  {
+   "scene": "analogy",
+   "clip": "m4b",
+   "sfx": "pop",
+   "from": 12.266666666666667,
+   "dur": 2.1333333333333333
+  },
+  {
+   "scene": "analogy",
+   "clip": "m4c",
+   "sfx": "pop",
+   "from": 14.4,
+   "dur": 3.3
+  },
+  {
+   "scene": "chain",
+   "clip": "m5a",
+   "sfx": "whoosh",
+   "from": 17.7,
+   "dur": 3.6
+  },
+  {
+   "scene": "chain",
+   "clip": "m5b",
+   "sfx": "pop",
+   "from": 21.3,
+   "dur": 2.8
+  },
+  {
+   "scene": "chain",
+   "clip": "m5c",
+   "sfx": "pop",
+   "from": 24.1,
+   "dur": 2.033333333333333
+  },
+  {
+   "scene": "impact",
+   "clip": "m6a",
+   "sfx": "whoosh",
+   "from": 26.133333333333333,
+   "dur": 2.066666666666667
+  },
+  {
+   "scene": "impact",
+   "clip": "m6b",
+   "sfx": "ping",
+   "from": 28.2,
+   "dur": 2.7666666666666666
+  },
+  {
+   "scene": "timeline",
+   "clip": "m7a",
+   "sfx": "whoosh",
+   "from": 30.966666666666665,
+   "dur": 2.7666666666666666
+  },
+  {
+   "scene": "timeline",
+   "clip": "m7b",
+   "sfx": "pop",
+   "from": 33.733333333333334,
+   "dur": 0.7333333333333333
+  },
+  {
+   "scene": "check",
+   "clip": "m8",
+   "sfx": "whoosh",
+   "from": 34.46666666666667,
+   "dur": 2.1
+  },
+  {
+   "scene": "check",
+   "clip": "m8_1",
+   "sfx": "tick",
+   "from": 36.56666666666667,
+   "dur": 1.7
+  },
+  {
+   "scene": "check",
+   "clip": "m8_2",
+   "sfx": "tick",
+   "from": 38.266666666666666,
+   "dur": 1.5333333333333334
+  },
+  {
+   "scene": "check",
+   "clip": "m8_3",
+   "sfx": "tick",
+   "from": 39.8,
+   "dur": 1.8333333333333333
+  },
+  {
+   "scene": "check",
+   "clip": "m8_4",
+   "sfx": "tick",
+   "from": 41.63333333333333,
+   "dur": 1.9666666666666666
+  },
+  {
+   "scene": "check",
+   "clip": "m8_5",
+   "sfx": "tick",
+   "from": 43.6,
+   "dur": 1.7
+  },
+  {
+   "scene": "check",
+   "clip": "m9",
+   "sfx": "ping",
+   "from": 45.3,
+   "dur": 1.7
+  },
+  {
+   "scene": "outro",
+   "clip": "m10a",
+   "sfx": "whoosh",
+   "from": 47,
+   "dur": 1.3333333333333333
+  },
+  {
+   "scene": "outro",
+   "clip": "m10b",
+   "sfx": "pop",
+   "from": 48.333333333333336,
+   "dur": 3.966666666666667
+  }
+ ]
+}

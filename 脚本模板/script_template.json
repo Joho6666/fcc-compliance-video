@@ -1,0 +1,36 @@
+{
+  "_说明": "结构化脚本模板：填好后交给制作。beats 每一项 = 一句旁白 = 一个镜头。scene 取值：hook / valid / analogy / chain / impact / timeline / check / outro；pose 取值：idle / point / present / wave / cheer / think / surprised / none；sfx 取值：boom / pop / stamp / whoosh / ping / tick / page。",
+  "meta": {
+    "title": "（发布标题）",
+    "topic": "（选题一句话，≤ 20 字）",
+    "sources": ["（信息来源链接或文件名）"],
+    "mascot": "shield | robot1 | robot2 | robot3",
+    "theme": "paper | techDark | techLavender | techBright",
+    "voice": "BV405_streaming（甜美解说） | zh_male_zhengtaikp（萌娃百科）",
+    "voice_speed": 1.05,
+    "cta": "关注 | 私信领资料 | 评论区留言"
+  },
+  "beats": [
+    {"scene": "hook", "text": "（日期/数字 + 事件）", "title": "（≤8字，用【】标高亮词）", "pose": "surprised", "sfx": "boom", "onscreen": {"bigNumber": "", "chip": ""}},
+    {"scene": "hook", "text": "（抛出观众最关心的问题）", "pose": "think", "sfx": "pop", "onscreen": {"bubble": ""}},
+    {"scene": "valid", "text": "先说结论：（直接回答）", "title": "", "pose": "cheer", "sfx": "stamp", "onscreen": {"stamp": "VALID", "bubble": "先别慌"}},
+    {"scene": "valid", "text": "（补充一句限定条件）", "pose": "cheer", "sfx": "pop", "onscreen": {"chip": ""}},
+    {"scene": "analogy", "text": "打个比方：（A），就像（B）。", "title": "打个【比方】", "pose": "none", "sfx": "whoosh", "onscreen": {"row": ["A图标/文字", "B图标/文字"]}},
+    {"scene": "analogy", "text": "（C），就是（D）。", "pose": "none", "sfx": "pop", "onscreen": {"row": ["C", "D"]}},
+    {"scene": "analogy", "text": "（类比得出的结论）", "pose": "none", "sfx": "pop", "onscreen": {"conclusion": ""}},
+    {"scene": "chain", "text": "（问题出在哪）", "title": "", "pose": "think", "sfx": "whoosh", "onscreen": {"boxes": ["", "", ""]}},
+    {"scene": "chain", "text": "", "pose": "think", "sfx": "pop", "onscreen": {}},
+    {"scene": "chain", "text": "", "pose": "think", "sfx": "pop", "onscreen": {"chip": ""}},
+    {"scene": "impact", "text": "（如果……）", "title": "", "pose": "surprised", "sfx": "whoosh", "onscreen": {"from": "", "via": "", "result": ""}},
+    {"scene": "impact", "text": "（后果，只写来源里有的；推断加 [核实]）", "pose": "surprised", "sfx": "ping", "onscreen": {}},
+    {"scene": "timeline", "text": "（关键日期）", "title": "", "pose": "cheer", "sfx": "whoosh", "onscreen": {"nodes": [{"date": "", "label": ""}, {"date": "", "label": "", "now": true}, {"date": "", "label": ""}]}},
+    {"scene": "timeline", "text": "你有时间。", "pose": "cheer", "sfx": "pop", "onscreen": {"chip": "你有时间"}},
+    {"scene": "check", "text": "（引出清单）", "title": "", "pose": "point", "sfx": "whoosh", "onscreen": {"items": ["≤10字", "≤10字", "≤10字", "≤10字", "≤10字"]}},
+    {"scene": "check", "text": "第一，……", "pose": "point", "sfx": "tick"},
+    {"scene": "check", "text": "第二，……", "pose": "point", "sfx": "tick"},
+    {"scene": "check", "text": "第三，……", "pose": "point", "sfx": "tick"},
+    {"scene": "check", "text": "（截图/转发引导）", "pose": "cheer", "sfx": "ping", "onscreen": {"chip": "截图 → 转给××"}},
+    {"scene": "outro", "text": "关注合规认证通，", "title": "关注【合规认证通】", "pose": "wave", "sfx": "whoosh"},
+    {"scene": "outro", "text": "（下期预告或一句承诺）", "pose": "wave", "sfx": "pop", "onscreen": {"bubble": ""}}
+  ]
+}

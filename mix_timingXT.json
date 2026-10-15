@@ -1,0 +1,111 @@
+{
+ "total": 68.833,
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0,
+   "seconds": 7.167
+  },
+  {
+   "id": "timeline",
+   "start": 7.167,
+   "seconds": 11.767
+  },
+  {
+   "id": "products",
+   "start": 18.933,
+   "seconds": 11.233
+  },
+  {
+   "id": "chain",
+   "start": 30.167,
+   "seconds": 9.633
+  },
+  {
+   "id": "check",
+   "start": 39.8,
+   "seconds": 18.333
+  },
+  {
+   "id": "outro",
+   "start": 58.133,
+   "seconds": 10.7
+  }
+ ],
+ "dh": [
+  {
+   "id": "hook",
+   "mode": "host",
+   "from": 0,
+   "dur": 215,
+   "start": 0,
+   "seconds": 7.167
+  },
+  {
+   "id": "chain",
+   "mode": "pip",
+   "from": 905,
+   "dur": 289,
+   "start": 30.167,
+   "seconds": 9.633
+  },
+  {
+   "id": "check_intro",
+   "mode": "host",
+   "from": 1194,
+   "dur": 99,
+   "start": 39.8,
+   "seconds": 3.3
+  },
+  {
+   "id": "outro",
+   "mode": "host",
+   "from": 1744,
+   "dur": 321,
+   "start": 58.133,
+   "seconds": 10.7
+  }
+ ],
+ "shots": [
+  {
+   "from": 7.167,
+   "sfx": "whoosh"
+  },
+  {
+   "from": 18.933,
+   "sfx": "whoosh"
+  },
+  {
+   "from": 30.167,
+   "sfx": "whoosh"
+  },
+  {
+   "from": 39.8,
+   "sfx": "whoosh"
+  },
+  {
+   "from": 43.7,
+   "sfx": "tick"
+  },
+  {
+   "from": 45.633,
+   "sfx": "tick"
+  },
+  {
+   "from": 48.3,
+   "sfx": "tick"
+  },
+  {
+   "from": 51.233,
+   "sfx": "tick"
+  },
+  {
+   "from": 55.067,
+   "sfx": "tick"
+  },
+  {
+   "from": 58.133,
+   "sfx": "whoosh"
+  }
+ ]
+}
