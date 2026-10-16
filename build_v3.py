@@ -37,6 +37,10 @@ CFG = {
                 bgm=["7378229393163175948", "7274159195459651625", "7377933297086253119"]),  # same cheerful BGM as the shield cut
     "RZT": dict(src="rzt1_voice.mp4", norm="rzt1_norm.mp4", name="认证通简介_Q版盾牌_深色科技", final="认证通简介_Q版盾牌_深色科技.mp4", timing="mix_timing_rzt.json",
                 bgm=["7378239487698765862", "7377933297086253119"]),  # Perfect Sense (时尚节奏数码科技)
+    "RZTK": dict(src="rzt1k_voice.mp4", norm="rzt1k_norm.mp4", name="认证通简介_Q版盾牌_萌娃配音", final="认证通简介_Q版盾牌_萌娃配音.mp4", timing="mix_timing_rzt_kid.json",
+                 bgm=["7378239487698765862", "7377933297086253119"]),  # Perfect Sense (时尚节奏数码科技), same as RZT
+    "RZTP": dict(src="rzt2k_voice.mp4", norm="rzt2k_norm.mp4", name="认证通简介_Q版盾牌_方格纸_男声", final="认证通简介_Q版盾牌_方格纸_男声.mp4", timing="mix_timing_rzt_kid.json",
+                 bgm=["7378229393163175948", "7274159195459651625", "7377933297086253119"]),  # cheerful BGM of the FCC paper shield cut
     "4": dict(src="fcc4_voice.mp4", norm="fcc4_norm.mp4", name="FCC新规解读_动漫科普_v4_竖屏", final="FCC新规解读_动漫科普_v4_竖屏.mp4", timing="mix_timing4.json",
               bgm=["7378229393163175948", "7274159195459651625", "7377933297086253119"]),  # 轻松欢乐俏皮钢琴尤克里里, 轻松的吹口哨, Light Corporate02
 }[V]

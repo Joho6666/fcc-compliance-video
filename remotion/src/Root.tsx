@@ -9,7 +9,7 @@ import envKid from './vo4_kid_env.json';
 import {DHLayer, type DHWindow} from './DHLayer';
 import {ShieldTest} from './ShieldTest';
 import {Video5} from './Video5';
-import {timingRZT, rztScript} from './timing5';
+import {timingRZT, timingRZTKid, rztScript} from './timing5';
 import {FPS, TOTAL, makeTiming} from './timing';
 import {TOTAL3} from './timing3';
 import {TOTAL4} from './timing4';
@@ -41,6 +41,13 @@ const Video4R3 = robotCut('robot3', 'techBright');
 // 认证通简介: data-driven scenes from scripts/rzt_intro.json (shield guide on the dark tech look).
 const VideoRZT: React.FC = () => (
   <ThemeCtx.Provider value="techDark"><MascotCtx.Provider value="shield"><Timing4Ctx.Provider value={timingRZT}><Video5 script={rztScript} /></Timing4Ctx.Provider></MascotCtx.Provider></ThemeCtx.Provider>
+);
+// Same male cut on the 小白debug paper-grid look (no tech frame / hologram cards).
+const VideoRZTPaper: React.FC = () => (
+  <ThemeCtx.Provider value="paper"><MascotCtx.Provider value="shield"><Timing4Ctx.Provider value={timingRZTKid}><Video5 script={rztScript} /></Timing4Ctx.Provider></MascotCtx.Provider></ThemeCtx.Provider>
+);
+const VideoRZTKid: React.FC = () => (
+  <ThemeCtx.Provider value="techDark"><MascotCtx.Provider value="shield"><Timing4Ctx.Provider value={timingRZTKid}><Video5 script={rztScript} /></Timing4Ctx.Provider></MascotCtx.Provider></ThemeCtx.Provider>
 );
 
 // Digital-human windows (~45% of the runtime); keep in sync with tools/timingXT_dump.mjs, which cut the s2v audio.
@@ -76,5 +83,7 @@ export const RemotionRoot = () => (
     <Composition id="ShieldTest" component={ShieldTest} durationInFrames={30} fps={FPS} width={1536} height={2080} />
     <Composition id="FCCV-DH" component={VideoDH} durationInFrames={timingXT.TOTAL} fps={FPS} width={1080} height={1920} />
     <Composition id="RZT1" component={VideoRZT} durationInFrames={timingRZT.TOTAL} fps={FPS} width={1080} height={1920} />
+    <Composition id="RZT2K" component={VideoRZTPaper} durationInFrames={timingRZTKid.TOTAL} fps={FPS} width={1080} height={1920} />
+    <Composition id="RZT1K" component={VideoRZTKid} durationInFrames={timingRZTKid.TOTAL} fps={FPS} width={1080} height={1920} />
   </>
 );

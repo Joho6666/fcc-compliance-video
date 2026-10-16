@@ -350,7 +350,7 @@ export const Video5: React.FC<{script: Script5}> = ({script}) => {
   const text = Object.fromEntries(script.beats.map((b) => [b.id, b.text]));
   return (
     <AbsoluteFill style={{background: '#E8EEF0'}}>
-      {theme === 'paper' ? <Grid /> : <TechBackdrop theme={theme} />}
+      {theme === 'paper' ? <Grid /> : <TechBackdrop theme={theme} icons={script.meta.backdropIcons === 'hardware' ? 'hardware' : 'ui'} />}
       {tm.scenes.map((s, i) => {
         const R = RENDER[s.id];
         const beats = script.beats.filter((x) => x.scene === s.id);

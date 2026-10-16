@@ -45,12 +45,19 @@ const HoloCard: React.FC<{x: number; y: number; w: number; h: number; kind: numb
         {kind === 2 && <><circle cx="50" cy="35" r="20" {...s} /><path d="M45 26l13 9-13 9z" fill={t.icon} stroke="none" /></>}
         {kind === 3 && <><path d="M50 14l18 7v12c0 12-8 20-18 24-10-4-18-12-18-24V21z" {...s} /><path d="M42 35l6 6 11-12" {...s} /></>}
         {kind === 4 && <><path d="M20 22h60M20 35h44M20 48h52" {...s} /></>}
+        {/* smart hardware set */}
+        {kind === 5 && <><circle cx="50" cy="36" r="24" {...s} /><path d="M32 22a24 24 0 0 1 36 0" {...s} strokeWidth={8} /><circle cx="50" cy="36" r="6" {...s} /><path d="M26 54l-8 6M22 50l-9 1" {...s} strokeWidth={3} /></>}
+        {kind === 6 && <><path d="M50 8v8" {...s} /><circle cx="50" cy="7" r="3" fill={t.icon} stroke="none" /><rect x="28" y="16" width="44" height="38" rx="12" {...s} /><circle cx="41" cy="33" r="4" fill={t.icon} stroke="none" /><circle cx="59" cy="33" r="4" fill={t.icon} stroke="none" /><path d="M42 44h16M22 30v10M78 30v10" {...s} /></>}
+        {kind === 7 && <><rect x="30" y="8" width="40" height="54" rx="6" {...s} /><path d="M30 20h40" {...s} /><circle cx="40" cy="14" r="1.5" fill={t.icon} stroke="none" /><circle cx="50" cy="41" r="13" {...s} /><path d="M43 43a8 8 0 0 0 12 0" {...s} strokeWidth={3} /></>}
+        {kind === 8 && <><path d="M12 46l6-12q3-6 10-6h30q7 0 12 6l10 8q8 1 8 8v4H12z" {...s} /><circle cx="30" cy="54" r="7" {...s} /><circle cx="72" cy="54" r="7" {...s} /><path d="M52 8l-8 12h8l-6 11" {...s} strokeWidth={4} /></>}
       </svg>
     </div>
   );
 };
 
-export const TechBackdrop: React.FC<{theme: TechTheme}> = ({theme}) => {
+/** icons: 'ui' = original code/chart/play/shield cards; 'hardware' = robot vacuum / robot / appliance / EV. */
+export const TechBackdrop: React.FC<{theme: TechTheme; icons?: 'ui' | 'hardware'}> = ({theme, icons = 'ui'}) => {
+  const k = icons === 'hardware' ? [5, 6, 7, 8] : [0, 1, 2, 3];
   const f = useCurrentFrame();
   const t = THEMES[theme];
   const particles = Array.from({length: theme === 'techDark' ? 70 : 45}, (_, i) => i);
@@ -65,10 +72,10 @@ export const TechBackdrop: React.FC<{theme: TechTheme}> = ({theme}) => {
           transform={`rotate(${-18 + Math.sin(f / 120) * 4} 540 980)`} strokeDasharray="900 700" strokeDashoffset={-f * 6} />
       </svg>
       {/* hologram cards around the panel edges */}
-      <HoloCard x={40} y={30} w={170} h={118} kind={0} f={f} t={t} seed={1} />
-      <HoloCard x={820} y={10} w={200} h={140} kind={1} f={f} t={t} seed={2} />
-      <HoloCard x={-30} y={1560} w={190} h={130} kind={2} f={f} t={t} seed={3} />
-      <HoloCard x={870} y={1600} w={210} h={146} kind={3} f={f} t={t} seed={4} />
+      <HoloCard x={40} y={30} w={170} h={118} kind={k[0]} f={f} t={t} seed={1} />
+      <HoloCard x={820} y={10} w={200} h={140} kind={k[1]} f={f} t={t} seed={2} />
+      <HoloCard x={-30} y={1560} w={190} h={130} kind={k[2]} f={f} t={t} seed={3} />
+      <HoloCard x={870} y={1600} w={210} h={146} kind={k[3]} f={f} t={t} seed={4} />
       <HoloCard x={680} y={1760} w={150} h={104} kind={4} f={f} t={t} seed={5} />
       {/* twinkling particles */}
       {particles.map((i) => {

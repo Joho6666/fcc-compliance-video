@@ -1,0 +1,159 @@
+{
+ "total": 72.16666666666667,
+ "shots": [
+  {
+   "scene": "hook",
+   "clip": "r1",
+   "sfx": "ping",
+   "from": 0.3,
+   "dur": 3.1
+  },
+  {
+   "scene": "hook",
+   "clip": "r2",
+   "sfx": "pop",
+   "from": 3.4,
+   "dur": 3.3
+  },
+  {
+   "scene": "valid",
+   "clip": "r3",
+   "sfx": "stamp",
+   "from": 6.7,
+   "dur": 3.3666666666666667
+  },
+  {
+   "scene": "valid",
+   "clip": "r4",
+   "sfx": "pop",
+   "from": 10.066666666666666,
+   "dur": 3.466666666666667
+  },
+  {
+   "scene": "analogy",
+   "clip": "r5",
+   "sfx": "page",
+   "from": 13.533333333333333,
+   "dur": 3.7666666666666666
+  },
+  {
+   "scene": "analogy",
+   "clip": "r6",
+   "sfx": "page",
+   "from": 17.3,
+   "dur": 3.3666666666666667
+  },
+  {
+   "scene": "analogy",
+   "clip": "r7",
+   "sfx": "page",
+   "from": 20.666666666666668,
+   "dur": 3.566666666666667
+  },
+  {
+   "scene": "chain",
+   "clip": "r8",
+   "sfx": "pop",
+   "from": 24.233333333333334,
+   "dur": 3.3666666666666667
+  },
+  {
+   "scene": "chain",
+   "clip": "r9",
+   "sfx": "pop",
+   "from": 27.6,
+   "dur": 3
+  },
+  {
+   "scene": "chain",
+   "clip": "r10",
+   "sfx": "pop",
+   "from": 30.6,
+   "dur": 3.5
+  },
+  {
+   "scene": "impact",
+   "clip": "r11",
+   "sfx": "boom",
+   "from": 34.1,
+   "dur": 3.3666666666666667
+  },
+  {
+   "scene": "impact",
+   "clip": "r12",
+   "sfx": "pop",
+   "from": 37.46666666666667,
+   "dur": 3.8
+  },
+  {
+   "scene": "timeline",
+   "clip": "r13",
+   "sfx": "whoosh",
+   "from": 41.266666666666666,
+   "dur": 3.433333333333333
+  },
+  {
+   "scene": "timeline",
+   "clip": "r14",
+   "sfx": "ping",
+   "from": 44.7,
+   "dur": 3.8333333333333335
+  },
+  {
+   "scene": "check",
+   "clip": "r15",
+   "sfx": "whoosh",
+   "from": 48.53333333333333,
+   "dur": 3.8666666666666667
+  },
+  {
+   "scene": "check",
+   "clip": "r16",
+   "sfx": "tick",
+   "from": 52.4,
+   "dur": 2.066666666666667
+  },
+  {
+   "scene": "check",
+   "clip": "r17",
+   "sfx": "tick",
+   "from": 54.46666666666667,
+   "dur": 2.466666666666667
+  },
+  {
+   "scene": "check",
+   "clip": "r18",
+   "sfx": "tick",
+   "from": 56.93333333333333,
+   "dur": 2.8333333333333335
+  },
+  {
+   "scene": "check",
+   "clip": "r19",
+   "sfx": "tick",
+   "from": 59.766666666666666,
+   "dur": 2.966666666666667
+  },
+  {
+   "scene": "check",
+   "clip": "r20",
+   "sfx": "tick",
+   "from": 62.733333333333334,
+   "dur": 2.7
+  },
+  {
+   "scene": "outro",
+   "clip": "r21",
+   "sfx": "whoosh",
+   "from": 65.43333333333334,
+   "dur": 1.2666666666666666
+  },
+  {
+   "scene": "outro",
+   "clip": "r22",
+   "sfx": "pop",
+   "from": 66.7,
+   "dur": 5.466666666666667
+  }
+ ]
+}

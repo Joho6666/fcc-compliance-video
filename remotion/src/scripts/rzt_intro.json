@@ -12,7 +12,8 @@
   "source": "信息来源：认证通官方平台介绍",
   "mascot": "shield",
   "theme": "techDark",
-  "voice": "BV405_streaming"
+  "voice": "BV405_streaming",
+  "backdropIcons": "hardware"
  },
  "beats": [
   {
@@ -230,12 +231,12 @@
     }
    ],
    "elements": [
-    "大图标 + 印章（AI+SaaS）、\"先别慌\"气泡、Anker资深团队标签"
+    "大图标 + 印章（AI+SaaS）、\"先别慌\"气泡、前安克资深合规认证专家标签"
    ],
    "icon": "shield",
    "stamp": "AI+SaaS",
    "bubble": "先别慌",
-   "tag": "Anker 资深团队"
+   "tag": "前安克资深合规认证专家"
   },
   "analogy": {
    "title": [
